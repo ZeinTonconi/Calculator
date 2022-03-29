@@ -19,9 +19,14 @@
 }
 
 #botones{
-    height: 80%;
+    height: 100%;
     width: 100%;
     padding: 0;
+}
+
+#operaciones{
+    height: 80%;
+    width: 100%;
 }
 
 .boton{
@@ -29,4 +34,11 @@
     height: 100%;
     width: 100%;
     font-size: 2.5rem;
+    background-color: rgb(0, 100, 100);
+    color: rgb(255,255,255)
+}
+
+.operacion{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0,0);
 }

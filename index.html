@@ -14,39 +14,41 @@
                 Resultado
             </div>
         </div>
-        <table id="botones">
-            <tbody>
-                <tr>    
-                    <td><button type="button" class="boton C">C</button></td>
-                    <td><button type="button" class="boton +-">+-</button></td>
-                    <td><button type="button" class="boton %">%</button></td>
-                    <td><button type="button" class="boton /">/</button></td>
-                </tr>
-                <tr>
-                    <td><button type="button" class="boton 7">7</button></td>
-                    <td><button type="button" class="boton 8">8</button></td>
-                    <td><button type="button" class="boton 9">9</button></td>
-                    <td><button type="button" class="boton *">*</button></td>
-                </tr>
-                <tr>                
-                    <td><button type="button" class="boton 4">4</button></td>
-                    <td><button type="button" class="boton 5">5</button></td>
-                    <td><button type="button" class="boton 6">6</button></td>
-                    <td><button type="button" class="boton -">-</button></td>
-                </tr>
-                <tr>
-                    <td><button type="button" class="boton 1">1</button></td>
-                    <td><button type="button" class="boton 2">2</button></td>
-                    <td><button type="button" class="boton 3">3</button></td>
-                    <td><button type="button" class="boton +">+</button></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><button type="button" class="boton 1">0</button></td>
-                    <td><button type="button" class="boton 2">.</button></td>
-                    <td><button type="button" class="boton 3">=</button></td>
-                </tr>
-            </tbody>
-        </table>
+        <form id="operaciones">
+            <table id="botones">
+                <tbody>
+                    <tr>    
+                        <td><button type="button" class="boton" value="clear">C</button></td>
+                        <td><button type="button" class="boton" value="masmenos">+-</button></td>
+                        <td><button type="button" class="boton" value="porcentaje">%</button></td>
+                        <td><button type="button" class="boton operacion" value="division">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="boton" value="7">7</button></td>
+                        <td><button type="button" class="boton" value="8">8</button></td>
+                        <td><button type="button" class="boton" value="9">9</button></td>
+                        <td><button type="button" class="boton operacion" value="mulit">*</button></td>
+                    </tr>
+                    <tr>                
+                        <td><button type="button" class="boton" value="4">4</button></td>
+                        <td><button type="button" class="boton" value="5">5</button></td>
+                        <td><button type="button" class="boton" value="6">6</button></td>
+                        <td><button type="button" class="boton operacion" value="menos">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="boton" value="1">1</button></td>
+                        <td><button type="button" class="boton" value="2">2</button></td>
+                        <td><button type="button" class="boton" value="3">3</button></td>
+                        <td><button type="button" class="boton operacion" value="mas">+</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="button" class="boton" value="0">0</button></td>
+                        <td><button type="button" class="boton" value="punto">.</button></td>
+                        <td><button type="submit" class="boton operacion" value="igual">=</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </div>
 </body>
 </html>
